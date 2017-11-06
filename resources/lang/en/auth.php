@@ -1,10 +1,13 @@
 <?php
 
-return array[
-    'login_title'       => 'Login',
-    'login_button'      => 'Login',
-    'register_tittle'   => 'Register',
-    'register_button'   => 'Register',
+return array(
+    'errors_title' => 'Por favor corrige los siguientes errores',
+    'login_title'       => 'Inicio de Sesión',
+    'login_button'      => 'Inicia Sesión',
+    'register_tittle'   => 'Registro',
+    'register_button'   => 'Regístrate!',
+    'remember' => 'Recuérdame',
+    'forgot_link' => '¿Olvidaste tu contrseña?'
 
 
-];
+);

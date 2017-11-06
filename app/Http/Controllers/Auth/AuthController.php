@@ -80,4 +80,7 @@ class AuthController extends Controller
     {
         return route ('home');
     }
+       protected function getFailedLoginMessage() {
+        return trans ('validation.login');
+    }
 }

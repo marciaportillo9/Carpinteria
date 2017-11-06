@@ -11,7 +11,7 @@ class UserTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('users')-> truncate();
+        DB::table('users');
         factory(App\User::class)->create ([
             'name' => 'Marcia',
             'email' => 'admin@gmail.com',
